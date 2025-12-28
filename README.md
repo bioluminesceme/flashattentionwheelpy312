@@ -8,6 +8,7 @@ This repo contains a prebuilt Windows wheel for flash-attention and a batch file
 
 ## Build instructions
 See: https://huggingface.co/lldacing/flash-attention-windows-wheel
+Local notes: `buildinstructions.md`
 
 ## Build settings used
 - OS: Windows 11
