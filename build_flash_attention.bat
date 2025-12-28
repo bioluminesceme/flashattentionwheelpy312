@@ -18,6 +18,12 @@ echo CUDA_HOME=%CUDA_HOME%
 "%CUDA_HOME%\bin\nvcc.exe" --version
 
 rem Build wheel
-"C:\AddToPath\flashattention\venv\Scripts\python.exe" setup.py bdist_wheel
+if "%~dp0"=="" (
+  echo Failed to resolve script directory.
+  exit /b 1
+)
+set "SCRIPT_DIR=%~dp0"
+set "PYTHON_EXE=%SCRIPT_DIR%venv\Scripts\python.exe"
+"%PYTHON_EXE%" setup.py bdist_wheel
 
 endlocal

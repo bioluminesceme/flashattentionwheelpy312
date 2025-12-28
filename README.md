@@ -12,6 +12,7 @@ See: https://huggingface.co/lldacing/flash-attention-windows-wheel
 ## Build settings used
 - OS: Windows 11
 - GPU: RTX 3070 (SM 86)
+- Build time: a few hours on RTX 3070
 - CUDA: 13.0 (CUDA toolkit path: `C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.0`)
 - cuDNN include path: `C:\Program Files\NVIDIA\CUDNN\v8.3\include`
 - Python: 3.12
