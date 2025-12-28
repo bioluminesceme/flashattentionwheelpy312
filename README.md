@@ -28,7 +28,7 @@ See: https://huggingface.co/lldacing/flash-attention-windows-wheel
 
 ## Install
 ```bat
-C:\AddToPath\flashattention\venv\Scripts\python.exe -m pip install flash_attn-2.8.3-cp312-cp312-win_amd64.whl
+<path-to-python>\python.exe -m pip install flash_attn-2.8.3-cp312-cp312-win_amd64.whl
 ```
 
 ## Build
